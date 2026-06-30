@@ -1,0 +1,15 @@
+#Python virtual environment
+venv/
+
+#Python cache files
+__pycache__/
+*.pyc
+
+#SQLite Databases rule based database file (Ignore files so you don't push local test data to Github.)
+*.db
+
+#Log files
+logs/*.log
+
+#VS Code settings (optional)
+.vscode/
