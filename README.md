@@ -99,8 +99,8 @@ The sumilator follows a safety-first workflow.
 
 Rules:
 
-- If `active_alerts > 0`, updates are blocked.
-- If `active_alerts == 0`, → updates are permitted.
+- If active_alerts > 0, updates are blocked.
+- If active_alerts == 0, updates are permitted.
 
 Additional constraints:
 
@@ -113,12 +113,12 @@ Additional constraints:
 
 ```
 ## 🧱 Tech Stack
-- **Backend:** FastAPI  
-- **Frontend:** Streamlit  
-- **Database:** SQLite  
-- **Language:** Python  
-- **Architecture:** Layered (API → Service → Database)  
-- **Logging:** File-based audit logging
+- Backend: FastAPI  
+- Frontend: Streamlit  
+- Database: SQLite  
+- Language: Python  
+- Architecture: Layered (API → Service → Database)  
+- Logging: File-based audit logging
 
 ```
 ---
