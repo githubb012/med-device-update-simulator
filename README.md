@@ -95,7 +95,7 @@ API-driven interactions
 ```
 ## 🧠 Business Logic 
 
-The sumilator follows a safety-first workflow.
+The similator follows a safety-first workflow.
 
 Rules:
 
@@ -105,7 +105,7 @@ Rules:
 Additional constraints:
 
 - Stopping delivery automatically creates an alert.
-- Alerts must be acknowledger befpre updates can continue.
+- Alerts must be acknowledged before updates can continue.
 
 ```
 ---
